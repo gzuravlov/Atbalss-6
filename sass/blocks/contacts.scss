@@ -1,0 +1,38 @@
+.contacts {
+    background-color: $white;
+    display: flex;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contacts__title {
+    @include text ($ff, $dark-blue, 50px, 500, auto);
+}
+
+.contacts__type {
+    @include text ($ff, $dark-blue, 18px, 700, auto);
+}
+
+.contacts__info {
+    @include text ($ff, $pink, 24px, 500, auto);
+}
+
+.contacts__boxes {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.contacts__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.contacts__info {
+    width: 200px;
+    padding: 20px;
+}

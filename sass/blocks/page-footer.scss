@@ -1,0 +1,38 @@
+.page-footer {
+  background-color: $white;
+}
+
+.page-footer__logo {
+  padding: 40px 80px;
+  cursor: pointer;
+}
+
+.page-footer__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-nav__list {
+  display: flex;
+}
+
+.footer-nav__wrapper {
+  display: flex;
+}
+
+.footer-nav__item {
+  list-style: none;
+  padding-right: 60px;
+  width: 100px;
+}
+
+.footer-nav__link {
+  @include text ($ff, $dark-blue, 24px, 500, 18px);
+  text-decoration: none;
+  &:hover {
+    color: $gray;
+  }
+}

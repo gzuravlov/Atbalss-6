@@ -1,0 +1,25 @@
+.gallery {
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery__album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.gallery__title {
+    @include text ($ff, $dark-blue, 30px, 700, 30px);
+    margin: 100px;
+}
+
+.gallery__img {
+    padding: 0 25px 0 25px;
+    cursor: pointer;
+}
+

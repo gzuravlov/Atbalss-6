@@ -1,0 +1,22 @@
+.review {
+    background-color: $white;
+    padding-bottom: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.review__text {
+    @include text ($ff, $dark-blue, 24px, 500, 40px);
+}
+
+.review__name {
+    @include text ($ff, $dark-blue, 18px, 500, 30px);
+}
+
+.review__NameSurename {
+    @include text ($ff, $dark-blue, 24px, 700, 30px);
+}
+
+.review__box {
+    margin: 150px;
+}

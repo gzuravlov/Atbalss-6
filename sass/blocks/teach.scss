@@ -1,0 +1,62 @@
+.teach {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $light-gray;
+    height: 100vh;
+}
+
+.teach__title {
+    @include text ($ff, $dark-blue, 50px, 500, auto);
+
+}
+
+.teach__heading {
+    @include text ($ff, $dark-blue, 30px, 700, auto);
+    margin-top: 50px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.steps__number {
+    @include text ($ff, $white, 30px, 500, auto);
+    background-color: $dark-blue;
+    width: 80px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.steps__box {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__text {
+    @include text ($ff, $dark-blue, 24px, 500, 30px);
+    width: 165px;
+}
+
+.teach__pdf {
+    background-color: transparent;
+    cursor: pointer;
+    @include text ($ff, $dark-blue, 21px, 700, 18px);
+    border: 2px solid $dark-blue;
+    border-radius: 50px;
+    padding: 20px 0;
+    width: 300px;
+    text-align: center;
+    &:hover {
+        background-color: $gray;
+    }
+}

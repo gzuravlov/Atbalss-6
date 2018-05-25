@@ -1,0 +1,37 @@
+// text
+
+@mixin text ($ff, $color, $size, $weight, $lh) {
+  font-family: $ff;
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lh;
+}
+
+// pseudo
+
+@mixin pseudo($display: block, $pos: absolute, $content: "") {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+// link
+
+@mixin linx ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+
+    &:visited {
+      color: $visit;
+    }
+
+    &:hover {
+      color: $hover;
+    }
+
+    &:active {
+      color: $active;
+    }
+  }
+}

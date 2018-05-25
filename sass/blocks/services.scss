@@ -1,0 +1,31 @@
+.services {
+    background-color: $light-gray;
+    padding-bottom: 50px;
+}
+
+.services__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.services__title {
+    @include text ($ff, $dark-blue, 30px, 700, 30px);
+}
+
+.services__desc {
+    @include text ($ff, $dark-blue, 18px, 500, 30px);
+}
+
+.services__item {
+    @include text ($ff, $dark-blue, 18px, 500, 35px);
+}
+
+.services__box-left {
+    padding: 50px;
+}
+
+.services__list {
+    padding-left: 25px;
+}
